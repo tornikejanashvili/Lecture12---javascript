@@ -2,23 +2,3 @@ margin {
   margin: 0;
   box-sizing: border-box;
 }
-
-.roblox {
-  position: relative;
-  left: 0%;
-  color: green;
-  font-size: 40px;
-  animation-name: example;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-
-@keyframes example {
-  from {
-  }
-  to {
-    color: rgb(255, 0, 0);
-    left: 100%-200px;
-  }
-}
